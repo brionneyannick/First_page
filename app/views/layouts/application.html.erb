@@ -10,6 +10,20 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-inverse bg-warning">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <%= link_to 'Link a Página1', pages_one_path %>
+          </li>
+          <li class="nav-item active">
+            <%= link_to 'Link a Página2', pages_two_path %>
+          </li>
+          <li class="nav-item">
+            <%= link_to 'Link a Página3', pages_three_path %>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
